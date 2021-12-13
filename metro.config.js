@@ -4,6 +4,13 @@
  */
 
 module.exports = {
-  resolver: {
+  resolver: {},
+  transformer: {
+    getTransformOptions: async () => ({
+      transform: {
+        experimentalImportSupport: false,
+        inlineRequires: false,
+      },
+    }),
   },
 };
