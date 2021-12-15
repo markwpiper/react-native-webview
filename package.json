@@ -13,7 +13,7 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "start:android": "react-native run-android",
-    "start:ios": "react-native run-ios",
+    "start:ios": "react-native run-ios --project-path ./example/ios",
     "start:macos": "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
     "start:windows": "react-native start --use-react-native-windows",
     "run:windows": "react-native run-windows --root ./example --no-packager",
